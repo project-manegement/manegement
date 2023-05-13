@@ -12,7 +12,7 @@ const db=mysql.createConnection({
   password:'root',
   database:'schoooly'
 })
-
+// this is connection
 db.connect(function (err) {
   if (err) console.log("Error to connect to database", err);
   else console.log("Database connected");
